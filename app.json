@@ -1,0 +1,87 @@
+{
+    "name": "Telegram Files Store Bot",
+    "description": "A Telegram Files Store Bot in Pyrogram by @AbirHasan2005",
+    "keywords": [
+        "telegram",
+        "files",
+        "store",
+        "bot"
+    ],
+    "repository": "https://github.com/fpband/PyroFilesStoreBot0002",
+    "website": "https://telegram.dog/fpband",
+    "success_url": "https://t.me/irbotz",
+    "env": {
+         "API_id": {
+            "description": "Api id telegram",
+            "required": false,
+            "value": "3335796"
+        },
+         "API_HASH": {
+            "description": "Api hash telegram",
+            "required": false,
+            "value": "138b992a0e672e8346d8439c3f42ea78"
+        },
+         "BOT_TOKEN": {
+            "description": "bot telegram token",
+            "required": false,
+            "value": "5171401480:AAHZeGf1A575B6tSDMTlWa03rmaXKteoD1I"
+        },
+         "BOT_USERNAME": {
+            "description": "username bot",
+            "required": false,
+            "value": "ir_StorageFileBot"
+        },
+         "DB_CHANNEL": {
+            "description": "log channel id",
+            "required": false,
+            "value": "-1001708811948"
+        },
+         "BOT_OWNER": {
+            "description": "owner id -256",
+            "required": false,
+            "value": "763990585"
+        },
+         "DATABASE_URL": {
+            "description": "database url",
+            "required": false,
+            "value": "mongodb+srv://abirhasan2005:abirhasan@cluster0.lb2tp.mongodb.net/cluster0?retryWrites=true&w=majority"
+        },
+         "UPDATES_CHANNEL": {
+            "description": "update channel username",
+            "required": false,
+            "value": "SeriesPlus1"
+        },
+         "LOG_CHANNEL": {
+            "description": "log channel id -467",
+            "required": false,
+            "value": "-1001708811948"
+        },
+        "BANNED_USERS": {
+            "description": "Banned unwanted members",
+            "required": false
+        },
+        "BANNED_CHAT_IDS": {
+            "description": "Banned unwanted channel IDs",
+            "required": false
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Broadcast with Forward Tag or as Copy(Without Forward Tag). Value should be True/False !!",
+            "required": false
+        },
+        "FORWARD_AS_COPY": {
+            "description": "If True all messages will be forwarder As Copy. If False all messages will be forwarder with Forward Tag. Value should be True/False !!",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
