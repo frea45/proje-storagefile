@@ -7,7 +7,7 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/fpband/PyroFilesStoreBot0002",
+    "repository": "https://github.com/frea45/proje-1-storagefile",
     "website": "https://telegram.dog/fpband",
     "success_url": "https://t.me/irbotz",
     "env": {
